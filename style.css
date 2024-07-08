@@ -1,0 +1,141 @@
+
+html {
+   background-color: #D6F5CE;
+}
+
+body {
+   font-family: "Baskervville SC", serif;
+   font-weight: 400;
+   font-style: normal;
+   color: #E5B5F5;
+}
+
+h1 {
+   color: black;
+   text-decoration: underline;
+   display: inline-block;
+}
+
+h1::first-letter {
+   color: #AD5E9A;
+}
+
+h2 {
+   color: #AD5E9A;   
+   display: inline-block;
+}
+
+main p {
+   text-transform: lowercase;
+   text-shadow: 1px 1px #774293;
+}
+
+header nav a {
+   text-decoration: none; 
+   color: #774293;
+   text-shadow: 0.1px 0.5px #774293;
+   font-weight: 600;
+}
+
+a:hover {
+   color: black;
+}
+
+header li {
+   display: inline-block;
+}
+
+
+.flex-container {
+   display: flex;
+   float: right;
+	margin-top: 2rem;
+}
+
+.flex-container li {
+   margin-right: 1rem; /* Adjust this value to increase/decrease space */
+}
+
+
+#logo img {
+      width: 7rem; 
+      height: auto;
+   }
+#logo {
+      float: left;
+   }
+
+.clearfix::before,
+.clearfix::after {
+      content: " ";   
+      display: table;
+}
+.clearfix::after {
+      clear: both;
+}
+.clearfix {
+      zoom: 1;
+}
+  
+footer {
+   width: 100%;
+   position: absolute; 
+   top: 90%;
+   background: linear-gradient(to right, #812D4E,#459676);
+   color: #fff;
+   padding: 100px 0px 30px;
+   border-top-left-radius: 125px;
+   border-bottom-right-radius: 125px;
+   font-size: 13px;
+   line-height: 20px;
+}
+
+.row {
+   width: 85%;
+   margin: auto;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: flex-start;
+   justify-content: space-between;
+}
+.col {
+   flex-basis: 25%;
+   padding: 5px;
+   box-sizing: border-box;
+  }
+
+.logocl {
+   width: 100px;
+   margin-bottom: 30px;
+}
+
+.phone-number {
+   font-size: 16px;
+   font-weight: bold;
+   margin: 10px 0;
+}
+
+.col h4 {
+   width: fit-content;
+   padding-left: 30px;
+   margin-bottom: 40px;
+   position: relative;
+
+}
+
+#connect {
+   padding-left: 0;
+}
+
+.col a {
+   text-decoration: none;
+   color: #fff;
+}
+
+.col a:hover {
+   color: black;
+}
+
+#last {
+   text-align: center;
+}
